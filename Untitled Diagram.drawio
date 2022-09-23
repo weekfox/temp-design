@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T11:25:13.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8Hc78dx4Xnl8qapo0P7F" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T11:37:55.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="SowvQrMKscrir8nu2Azv" version="20.3.6" type="github">
   <diagram id="ds0K4tFqCAFqR50HNbNL" name="Page-1">
     <mxGraphModel dx="1718" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,8 +56,8 @@
         <mxCell id="fZgHb_uzZiKMJdekkGli-4" value="v2.0.0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="465" y="270" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fZgHb_uzZiKMJdekkGli-5" value="版本说明：&lt;br&gt;v1.0.0&amp;nbsp; 初始版本，&lt;br&gt;v1.0.2&amp;nbsp; 此版本只修改部分js文件&lt;br&gt;v1.2.0&amp;nbsp; 此版本修改js文件，增加了js第三方库，但是该js文件未引用Objective-C原生代码&lt;br&gt;v2.0.0&amp;nbsp; 此版本修改或添加了Objective-C文件（或新增的RN第三方库引用了Objective-C原生文件）&lt;br&gt;v2.1.0&amp;nbsp; 未涉及到Objective-C的修改或添加（场景跟v.1.0.0，v1.0.2，v1.2.0类似）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="20" width="540" height="100" as="geometry" />
+        <mxCell id="fZgHb_uzZiKMJdekkGli-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;升级需求，评估一下此功能是否需要&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;版本说明：&lt;br&gt;v1.0.0&amp;nbsp; 初始版本，&lt;br&gt;v1.0.2&amp;nbsp; 此版本只修改部分js文件&lt;br&gt;v1.2.0&amp;nbsp; 此版本修改js文件，增加了js第三方库，但是该js文件未引用Objective-C原生代码&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;v2.0.0&amp;nbsp; 此版本修改或添加了Objective-C文件（或新增的RN第三方库引用了Objective-C原生文件）&lt;br&gt;&lt;/font&gt;&lt;/b&gt;v2.1.0&amp;nbsp; 未涉及到Objective-C的修改或添加（场景跟v.1.0.0，v1.0.2，v1.2.0类似）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="550" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fZgHb_uzZiKMJdekkGli-7" value="1.1&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="195" y="410" width="60" height="80" as="geometry" />
