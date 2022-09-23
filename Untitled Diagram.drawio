@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T10:56:19.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fGgp7jnh-hh8UkhJEQlv" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T11:25:13.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8Hc78dx4Xnl8qapo0P7F" version="20.3.6" type="github">
   <diagram id="ds0K4tFqCAFqR50HNbNL" name="Page-1">
     <mxGraphModel dx="1718" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -83,8 +83,8 @@
         <mxCell id="fZgHb_uzZiKMJdekkGli-36" value="用户B" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;shadow=0;glass=0;labelBorderColor=default;sketch=0;fillStyle=hatch;strokeWidth=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="435" y="170" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fZgHb_uzZiKMJdekkGli-43" value="用户A最多只能升级到v1.2.0版本，无法升级到更高的版本；&lt;br&gt;如何让用户A使用更高版本，只能通过弹窗提示用户到落地页下载新版本&lt;br&gt;&lt;br&gt;弹窗升级方式：&lt;br&gt;RN代码中定义一个版本变量，如&amp;nbsp;export const appVersion = &quot;1.2.0&quot;&lt;br&gt;后台提供接口，此接口可以返回需要升级的版本数组（需要是数组，因为用户的版本可能不同），&lt;br&gt;落地页下载链接，升级提示内容，是否开启升级提示，强制升级还是非强制升级，" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="550" width="540" height="110" as="geometry" />
+        <mxCell id="fZgHb_uzZiKMJdekkGli-43" value="用户A最多只能升级到v1.2.0版本，无法升级到更高的版本；&lt;br&gt;如何让用户A使用更高版本，只能通过弹窗提示用户到落地页下载新版本&lt;br&gt;&lt;br&gt;弹窗升级方式：&lt;br&gt;RN代码中定义一个版本变量，如&amp;nbsp;export const appVersion = &quot;1.2.0&quot;&lt;br&gt;后台提供接口，此接口可以返回需要升级的版本数组（需要是数组，因为用户的版本可能不同），&lt;br&gt;落地页下载链接，升级提示内容，是否开启升级提示，强制升级还是非强制升级，&lt;br&gt;&lt;br&gt;前端代码获取接口数据之后，首先判断此功能是否开启，如果开启再检查数组中是否存在本地的版本appVersion，&lt;br&gt;如果存在，则弹出升级弹窗。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="555" width="620" height="160" as="geometry" />
         </mxCell>
         <mxCell id="fZgHb_uzZiKMJdekkGli-44" value="热更仓库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;glass=0;labelBorderColor=none;sketch=0;fillStyle=hatch;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="780" y="80" width="60" height="80" as="geometry" />
